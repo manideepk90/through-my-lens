@@ -1,0 +1,42 @@
+# Node modules (Yarn 2+ uses .yarn/cache instead)
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Local env files
+.env
+.env.*.local
+.env.local
+
+# SQLite database
+*.db
+*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Optional: ignore uploads if you don't want to track user-uploaded images
+/public/uploads/
